@@ -18,7 +18,7 @@ namespace klass_hoone
 
         public void NaitaInfo()
         {
-            Console.WriteLine($"Mina olen inimene, nimu nimi on {nimi}");
+            Console.WriteLine($"Mina olen inimene, mimu nimi on {nimi}");
             Console.WriteLine("Hoone andmed:");
             hoone.NaitaInfo();
             Console.WriteLine("Ukse andmed:");
