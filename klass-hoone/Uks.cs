@@ -17,7 +17,7 @@ namespace klass_hoone
 
         public void NaitaInfo()
         {
-            Console.WriteLine($"Mina olen uks, minu värv on {Color}");
+            Console.WriteLine($"Mina olen uks, minu värv on {Color}"); // выводит информацию о цвете двери в консоль с помощью inimene.cs
         }
     }
 }

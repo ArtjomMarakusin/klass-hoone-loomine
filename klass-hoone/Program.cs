@@ -13,11 +13,11 @@ namespace klass_hoone
 
             EraMaja majake = new EraMaja();
 
-            Inimene mees = new Inimene("Juku");
-            majake.uks = new Uks("must");
-            majake.korteri = new KorteriteMaja("valge");
+            Inimene mees = new Inimene("Juku"); // имя человека
+            majake.uks = new Uks("must"); // цвет двери
+            majake.korteri = new KorteriteMaja("valge"); // цвет дома
             mees.hoone = majake;
-            mees.NaitaInfo();
+            mees.NaitaInfo(); // выводит всю информацию в консоль
 
             Console.ReadLine();
 

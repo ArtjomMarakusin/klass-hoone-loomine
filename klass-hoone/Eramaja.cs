@@ -12,7 +12,7 @@ namespace klass_hoone
         string status;
         public int Suurus
         {
-            set
+            set // определяет какой дом по размеру, исходя из значения pindala
             {
                 pindala = value;
                 if (pindala < 50) status = "vaike maja";
@@ -26,14 +26,14 @@ namespace klass_hoone
         {
             get { return status; }
         }
-        public override void NaitaInfo()
+        public override void NaitaInfo() // выводит всю информацию о доме, далее эта информация пишется в консоль через inimene.cs
         {
             Console.WriteLine($"Mina olen maja, minu pindala on {Pindala} m2");
             Console.WriteLine($"Mina olen maja, mul on {Korrus} korrused");
             Console.WriteLine($"Mina olen maja, minu number on {NumberMaja}");
             Console.WriteLine(Info);
         }
-        public EraMaja(int pindala = 50, int korrus = 3, int majanum = 15) : base(pindala, korrus, majanum)
+        public EraMaja(int pindala = 50, int korrus = 3, int majanum = 15) : base(pindala, korrus, majanum) // размер, этаж и номер дома
         {
         }
     }

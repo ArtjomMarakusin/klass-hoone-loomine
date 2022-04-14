@@ -16,7 +16,7 @@ namespace klass_hoone
             this.nimi = nimi;
         }
 
-        public void NaitaInfo()
+        public void NaitaInfo() // Выводит информацию о доме, человеке в консоль
         {
             Console.WriteLine($"Mina olen inimene, mimu nimi on {nimi}");
             Console.WriteLine("Hoone andmed:");

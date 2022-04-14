@@ -10,14 +10,14 @@ namespace klass_hoone
     {
         public string Color { get; set; }
 
-        public KorteriteMaja(string color = "sinine")
+        public KorteriteMaja(string color = "sinine") // определяет цвет дома
         {
             Color = color;
         }
 
         public void NaitaInfo()
         {
-            Console.WriteLine($"Mina olen korteri maja, minu värv on {Color}");
+            Console.WriteLine($"Mina olen korteri maja, minu värv on {Color}"); // выводит информацию о цвете дома в консоль через inimene.cs
         }
     }
 }
